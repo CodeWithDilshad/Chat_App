@@ -23,7 +23,7 @@ class _CatagorySelectorState extends State<CatagorySelector> {
           itemCount: catagories.length,
           itemBuilder: ((context, int index) {
             return GestureDetector(
-              onTap: () {
+              onTap: () { 
                 setState(() {
                   selectedIndex = index;
                 });
